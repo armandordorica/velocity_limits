@@ -1,0 +1,33 @@
+﻿Rule Number,Load ID is unique ,time stamp is unique ,daily_deps_left > load.amt,daily_loads_left >= 0,weekly_deps_left > load.amt,System Response 
+1,0,d,d,d,d,Decline - load ID not unique 1
+2,0,d,d,d,d,Decline - load ID not unique 2
+3,0,d,d,d,d,Decline - load ID not unique 3
+4,0,d,d,d,d,Decline - load ID not unique 4
+5,0,d,d,d,d,Decline - load ID not unique 5
+6,0,d,d,d,d,Decline - load ID not unique 6
+7,0,d,d,d,d,Decline - load ID not unique 7
+8,0,d,d,d,d,Decline - load ID not unique 8
+9,0,d,d,d,d,Decline - load ID not unique 9
+10,0,d,d,d,d,Decline - load ID not unique 10
+11,0,d,d,d,d,Decline - load ID not unique 11
+12,0,d,d,d,d,Decline - load ID not unique 12
+13,0,d,d,d,d,Decline - load ID not unique 13
+14,0,d,d,d,d,Decline - load ID not unique 14
+15,0,d,d,d,d,Decline - load ID not unique 15
+16,0,d,d,d,d,Decline - load ID not unique 16
+17,1,0,0,0,0,Decline - time stamp not unique 1
+18,1,0,0,0,1,Decline - time stamp not unique 2
+19,1,0,0,1,0,Decline - time stamp not unique 3
+20,1,0,0,1,1,Decline - time stamp not unique 4
+21,1,0,1,0,0,Decline - time stamp not unique 5
+22,1,0,1,0,1,Decline - time stamp not unique 6
+23,1,0,1,1,0,Decline - time stamp not unique 7
+24,1,0,1,1,1,Decline - time stamp not unique 8
+25,1,1,0,d,d,Decline - Daily Deps left limit exceeded 1 
+26,1,1,0,d,d,Decline - Daily Deps left limit exceeded 2
+27,1,1,0,d,d,Decline - Daily Deps left limit exceeded 3
+28,1,1,0,d,d,Decline - Daily Deps left limit exceeded 4
+29,1,1,1,0,d,Decline - Daily loads left limit exceeded 1
+30,1,1,1,0,d,Decline - Daily loads left limit exceeded 2
+31,1,1,1,1,0,Decline - Weekly deps left limit exceeded 1
+32,1,1,1,1,1,Approve 
